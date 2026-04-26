@@ -1,0 +1,17 @@
+{
+  "title": "Tetapan",
+  "themeSection": "Tema",
+  "themeLight": "Cerah",
+  "themeDark": "Gelap",
+  "themeSystem": "Sistem",
+  "languageSection": "Bahasa",
+  "langEn": "Inggeris",
+  "langId": "Indonesia",
+  "langMy": "Melayu",
+  "account": "Akaun",
+  "signedInAs": "Log masuk sebagai",
+  "logout": "Log Keluar",
+  "logoutConfirm": "Sahkan Log Keluar",
+  "logoutMessage": "Adakah anda pasti ingin log keluar?",
+  "cancel": "Batal"
+}

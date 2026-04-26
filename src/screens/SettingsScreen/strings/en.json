@@ -1,0 +1,17 @@
+{
+  "title": "Settings",
+  "themeSection": "Appearance",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "themeSystem": "System",
+  "languageSection": "Language",
+  "langEn": "English",
+  "langId": "Indonesian",
+  "langMy": "Malay",
+  "account": "Account",
+  "signedInAs": "Signed in as",
+  "logout": "Logout",
+  "logoutConfirm": "Confirm Logout",
+  "logoutMessage": "Are you sure you want to logout?",
+  "cancel": "Cancel"
+}

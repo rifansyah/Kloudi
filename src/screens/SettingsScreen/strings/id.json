@@ -1,0 +1,17 @@
+{
+  "title": "Pengaturan",
+  "themeSection": "Tema",
+  "themeLight": "Terang",
+  "themeDark": "Gelap",
+  "themeSystem": "Sistem",
+  "languageSection": "Bahasa",
+  "langEn": "Inggris",
+  "langId": "Indonesia",
+  "langMy": "Melayu",
+  "account": "Akun",
+  "signedInAs": "Masuk sebagai",
+  "logout": "Keluar",
+  "logoutConfirm": "Konfirmasi Keluar",
+  "logoutMessage": "Apakah Anda yakin ingin keluar?",
+  "cancel": "Batal"
+}
