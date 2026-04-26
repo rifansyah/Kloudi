@@ -1,0 +1,9 @@
+{
+  "tabs": {
+    "home": "Home",
+    "settings": "Settings"
+  },
+  "common": {
+    "loading": "Loading..."
+  }
+}
