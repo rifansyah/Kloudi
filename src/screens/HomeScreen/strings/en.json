@@ -1,0 +1,8 @@
+{
+  "welcome": "Welcome!",
+  "successfullyLoggedIn": "You're successfully logged in.",
+  "accountDetails": "Account Details",
+  "name": "Name",
+  "email": "Email",
+  "activeSession": "Active Session"
+}
