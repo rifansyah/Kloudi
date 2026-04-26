@@ -1,45 +1,72 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
-import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
+import { AppProvider } from "@contexts/AppProvider";
+import { RootNavigator } from "@navigation/RootNavigator";
 import {
-  SafeAreaProvider,
-  useSafeAreaInsets,
-} from 'react-native-safe-area-context';
+  DarkTheme as NavDarkTheme,
+  NavigationContainer,
+  DefaultTheme as NavLightTheme,
+} from "@react-navigation/native";
+import Storage from "@services/storage";
+import { useTheme } from "@theme";
+import { StatusBar } from "react-native";
+import { SafeAreaProvider } from "react-native-safe-area-context";
 
-function App() {
-  const isDarkMode = useColorScheme() === 'dark';
+function ThemedNavigation() {
+  const { resolvedTheme, colors } = useTheme();
+
+  const navTheme =
+    resolvedTheme === "dark"
+      ? {
+          ...NavDarkTheme,
+          colors: {
+            ...NavDarkTheme.colors,
+            background: colors.background,
+            card: colors.surface,
+            text: colors.text,
+            primary: colors.primary,
+            border: colors.border,
+          },
+        }
+      : {
+          ...NavLightTheme,
+          colors: {
+            ...NavLightTheme.colors,
+            background: colors.background,
+            card: colors.surface,
+            text: colors.text,
+            primary: colors.primary,
+            border: colors.border,
+          },
+        };
 
   return (
-    <SafeAreaProvider>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <AppContent />
-    </SafeAreaProvider>
+    <NavigationContainer theme={navTheme}>
+      <RootNavigator />
+    </NavigationContainer>
   );
 }
 
 function AppContent() {
-  const safeAreaInsets = useSafeAreaInsets();
+  const { colors, resolvedTheme } = useTheme();
 
   return (
-    <View style={styles.container}>
-      <NewAppScreen
-        templateFileName="App.tsx"
-        safeAreaInsets={safeAreaInsets}
+    <>
+      <StatusBar
+        barStyle={resolvedTheme === "dark" ? "light-content" : "dark-content"}
+        backgroundColor={colors.statusBar}
       />
-    </View>
+      <ThemedNavigation />
+    </>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});
+function App() {
+  return (
+    <SafeAreaProvider>
+      <AppProvider storage={Storage}>
+        <AppContent />
+      </AppProvider>
+    </SafeAreaProvider>
+  );
+}
 
 export default App;
