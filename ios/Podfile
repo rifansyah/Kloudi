@@ -14,7 +14,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'klaudi' do
+target 'kloudi' do
   config = use_native_modules!
 
   use_react_native!(
@@ -25,10 +25,15 @@ target 'klaudi' do
 
   post_install do |installer|
     react_native_post_install(
-      installer,
-      config[:reactNativePath],
-      :mac_catalyst_enabled => false,
-      # :ccache_enabled => true
+        installer,
+        config[:reactNativePath],
+        :mac_catalyst_enabled => false,
     )
-  end
+
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+        config.build_settings['CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES'] = 'YES'
+        end
+    end
+    end
 end

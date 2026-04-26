@@ -1,4 +1,4 @@
-package com.klaudi
+package com.kloudi
 
 import android.app.Application
 import com.facebook.react.PackageList
