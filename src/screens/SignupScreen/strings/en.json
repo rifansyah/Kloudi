@@ -1,0 +1,16 @@
+{
+  "createAccount": "Create Account",
+  "joinToday": "Join us today to get started.",
+  "fullName": "Full Name",
+  "emailAddress": "Email Address",
+  "password": "Password",
+  "signUp": "Create Account",
+  "alreadyHaveAccount": "Already have an account?",
+  "login": "Login",
+  "nameRequired": "Name is required",
+  "emailRequired": "Email is required",
+  "passwordRequired": "Password is required",
+  "invalidEmail": "Please enter a valid email",
+  "passwordTooShort": "Password must be at least 6 characters",
+  "emailExists": "This email is already registered"
+}

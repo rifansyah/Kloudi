@@ -1,0 +1,16 @@
+{
+  "createAccount": "Cipta Akaun",
+  "joinToday": "Sertai hari ini",
+  "fullName": "Nama Penuh",
+  "emailAddress": "Alamat E-mel",
+  "password": "Kata Laluan",
+  "signUp": "Daftar",
+  "alreadyHaveAccount": "Sudah ada akaun?",
+  "login": "Log Masuk",
+  "nameRequired": "Nama diperlukan",
+  "emailRequired": "E-mel diperlukan",
+  "passwordRequired": "Kata laluan diperlukan",
+  "invalidEmail": "Format e-mel tidak sah",
+  "passwordTooShort": "Kata laluan terlalu pendek",
+  "emailExists": "E-mel sudah didaftarkan"
+}

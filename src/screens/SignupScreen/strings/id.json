@@ -1,0 +1,16 @@
+{
+  "createAccount": "Buat Akun",
+  "joinToday": "Bergabung hari ini",
+  "fullName": "Nama Lengkap",
+  "emailAddress": "Alamat Email",
+  "password": "Kata Sandi",
+  "signUp": "Daftar",
+  "alreadyHaveAccount": "Sudah punya akun?",
+  "login": "Masuk",
+  "nameRequired": "Nama wajib diisi",
+  "emailRequired": "Email wajib diisi",
+  "passwordRequired": "Kata sandi wajib diisi",
+  "invalidEmail": "Format email tidak valid",
+  "passwordTooShort": "Kata sandi terlalu pendek",
+  "emailExists": "Email sudah terdaftar"
+}
