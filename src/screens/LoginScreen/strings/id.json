@@ -1,0 +1,13 @@
+{
+  "welcomeBack": "Selamat Datang Kembali",
+  "signInToAccount": "Masuk ke akun Anda",
+  "emailAddress": "Alamat Email",
+  "password": "Kata Sandi",
+  "signIn": "Masuk",
+  "dontHaveAccount": "Belum punya akun?",
+  "signUp": "Daftar",
+  "emailRequired": "Email wajib diisi",
+  "passwordRequired": "Kata sandi wajib diisi",
+  "invalidEmail": "Format email tidak valid",
+  "invalidCredentials": "Email atau kata sandi salah"
+}

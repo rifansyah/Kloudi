@@ -1,0 +1,13 @@
+{
+  "welcomeBack": "Welcome Back",
+  "signInToAccount": "Sign in to your account",
+  "emailAddress": "Email Address",
+  "password": "Password",
+  "signIn": "Sign In",
+  "dontHaveAccount": "Don't have an account?",
+  "signUp": "Sign Up",
+  "emailRequired": "Email is required",
+  "passwordRequired": "Password is required",
+  "invalidEmail": "Please enter a valid email",
+  "invalidCredentials": "Invalid email or password"
+}

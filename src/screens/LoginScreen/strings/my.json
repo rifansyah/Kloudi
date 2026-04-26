@@ -1,0 +1,13 @@
+{
+  "welcomeBack": "Selamat Kembali",
+  "signInToAccount": "Log masuk ke akaun anda",
+  "emailAddress": "Alamat E-mel",
+  "password": "Kata Laluan",
+  "signIn": "Log Masuk",
+  "dontHaveAccount": "Tiada akaun?",
+  "signUp": "Daftar",
+  "emailRequired": "E-mel diperlukan",
+  "passwordRequired": "Kata laluan diperlukan",
+  "invalidEmail": "Format e-mel tidak sah",
+  "invalidCredentials": "E-mel atau kata laluan salah"
+}
